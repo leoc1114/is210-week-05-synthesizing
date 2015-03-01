@@ -22,7 +22,7 @@ def fahrenheit_to_celsius(fahrenheit_degrees):
         Decimal('100')
     """
         
-    celsius_degrees = decimal.Decimal(fahrenheit_degrees - 32) * 5 / 9
+    celsius_degrees = (decimal.Decimal(fahrenheit_degrees) - 32) * 5 / 9
     return decimal.Decimal(celsius_degrees)
 
 
