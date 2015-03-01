@@ -56,5 +56,5 @@ def fahrenheit_to_kelvin(fahrenheit_degrees):
         Decimal('373.15')
     """
     kelvin_degrees = ((decimal.Decimal(fahrenheit_degrees) - 32) * 5 / 9
-                     + ABSOLUTE_DIFFERENCE)
+                       + ABSOLUTE_DIFFERENCE)
     return decimal.Decimal(kelvin_degrees)
